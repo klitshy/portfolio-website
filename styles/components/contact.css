@@ -1,0 +1,149 @@
+.contact {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border:solid 1px red;
+    flex-basis: 3; */
+}
+
+/* .contact__text-container{
+    display: flex;
+    border:solid 1px red;
+} */
+
+.contact__title {
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+    text-transform: capitalize;
+}
+
+.contact__description {
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+    max-width: 60ch;
+}
+
+.contact_-btn {
+    font-size: var(--size-sm);
+}
+
+.contact__form-container{
+    /* display: flex; */
+    /* border:solid 1px red; */
+    flex-grow: 5;
+    background-color: var(00);
+}
+
+#fname {
+    border: 0;
+    background-color: var(--clr-light);
+    border: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#Email {
+    border: 0;
+    background-color: var(--clr-light);
+    border: none;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#Messeage {
+    border: 0;
+    background-color: var(--clr-light);
+    border: none;
+    text-decoration: none;
+    padding: 3px 3px;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* xs */
+@media (min-width: 475px) {
+    .contact {
+        gap: 1.5rem;
+
+    }
+
+    .contact__title {
+        font-size: var(--size-3xl);
+
+    }
+
+    .contact__description {
+        font-size: var(--size-base);
+    }
+
+    .contact__btn {
+        font-size: var(--size-base);
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+
+} */
+
+/* md */
+/* @media (min-width: 768px) {
+
+} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .contact__title {
+        font-size: var(--size-4xl);
+
+    }
+
+    .contact__description {
+        font-size: var(--size-lg);
+    }
+
+    .contact__btn {
+        font-size: var(--size-be-lg);
+    }
+
+    .contact__form-firstname {
+        font-size: var(--size-lg);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .contact {
+        gap: 2rem;
+
+    }
+
+    .contact__title {
+        font-size: var(--size-5xl);
+
+    }
+
+    .contact__description {
+        font-size: var(--size-1xl);
+    }
+
+    .contact__btn {
+        font-size: var(--size-1xl);
+    }
+
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+ 
+} */
